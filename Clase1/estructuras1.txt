@@ -1,0 +1,44 @@
+Estructuras básicas:
+	-Pila:
+		Insertar: constante
+		Buscar: n
+		Actualizar: n
+		Sacar: constante
+		Agrandar: constante
+
+		*Para determinar aperturas y cierres de un string por ejemplo, sirve esta estructura de datos*
+		*Se puede implementar con arreglos y dobles punteros*
+
+	-Cola:
+		Insertar: constante
+		Buscar: n
+		Actualizar: n
+		Sacar: constante
+		Agrandar: n
+
+		*Pilas y colas de prioridad: Se ordena a través de un ranking por ejemplo, se le da prioridad a elementos. Lo hace linux con los procesos*
+
+	-Árbol Binario Balanceado:
+		Insertar: log(n)
+		Buscar: log(n)
+		Actualizar: log(n)
+		Sacar: log(n)
+		Agrandar: constante -> Depende de la implementación
+
+		*Se ocupan en hashset y sets*
+		*Cuando se quiere pasar un árbol binario a un arreglo (heap), el tamaño del arreglo debe ser (4*cantidadDeElementos) + 7 *
+		*Si se pasan a un arreglo, se gana la ventaja de la localidad de espacio*
+
+Algoritmo de Ordenamiento:
+	*Ordenamiento de datos en disco, se ocupa Mergesort*
+	*Quicksort estable/ no estable en c++*
+
+Algoritmo de Búsqueda:
+	Lineal: 
+		O(n * q) ->siendo n la cantidad de elementos y q la cantidad de querys
+
+	Búsqueda Binaria:
+		O(log(n) * q) -> siendo n la cantidad de elementos y q la cantidad de querys
+
+	Búsqueda Exponencial:
+		O(log(n) * q) -> siendo n un infinito definido.
