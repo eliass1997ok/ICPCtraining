@@ -1,0 +1,4 @@
+** No usar criba si el número es mayor a 10**7
+
+** En el ejercicio del segment tree, el valor 10**7 no puede ser almacenado en un long long, por lo que al 
+   multiplicar esos números, se produce overflow, cambiando el signo del resultado. Por eso arrojó wrong answer.

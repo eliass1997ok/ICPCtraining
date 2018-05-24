@@ -1,0 +1,16 @@
+Range Minimum Query:
+	Problema: Dado un arreglo, quiero encontrar el mínimo dentro de un rango determinado.
+
+Fenwick Tree:
+	-APRENDER sólo para competencias.
+	-Rápido de implementar.
+	-Búsquedas individuales, búsquedas por rango, actualizaciones individuales.
+
+Segment Tree:
+	-Para llegar a un hijo izquierdo -> 2*n
+	-Para llegar a un hijo derecho -> (2*n)+1
+	-En las representaciones de un árbol dentro de un arreglo, la posicion 0 no se utiliza.
+	-La fórmula de los hijos se basa en técnicas recursivas.
+
+Segment Tree Lazy:
+	-
