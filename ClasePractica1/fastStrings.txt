@@ -1,0 +1,10 @@
+-> la mínima operación sobre un string es O(n).
+
+->10**8+7 es un número primo grande que puede ser representado en 1GB.
+
+Rabin-Karp Algorithm (Rolling Hashing).
+-B = 127
+-B = 37
+-B = Número primo mayor a la cantidad del alfabeto del texto.
+
+uva 10298
